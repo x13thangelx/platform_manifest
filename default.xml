@@ -281,7 +281,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-  <project path="vendor/rubix" name="vendor_rubix" remote="drod" revision="master" />
+  <project path="vendor/rubix" name="vendor_rubix" remote="x13" revision="master" />
   
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="x13" revision="master" /> 
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="x13" revision="ics" />
