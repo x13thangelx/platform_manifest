@@ -20,7 +20,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="CM9-D2G/android_build" remote="gh" revision="ics">
+  <project path="build" name="teamgummy/android_build" remote="gh" revision="MotoICS">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
