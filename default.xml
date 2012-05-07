@@ -276,6 +276,7 @@
   
   <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="gh" revision="ics" />
   <project path="packages/apps/Usb" name="CyanogenDefy/android_packages_apps_Usb" remote="gh" revision="ics" />
+  <project path="bionic" name="tpruvot/android_bionic" remote="gh" revision="ics" />
   
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="x13" revision="master" /> 
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="x13" revision="ics" />
