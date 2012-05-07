@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="aosp"
-       	fetch="git://android.googlesource.com/" />
+       	fetch="https://android.googlesource.com/" />
 
   <remote  name="drod"
            fetch="git://github.com/drod2169" />
