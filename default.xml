@@ -288,7 +288,5 @@
   <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="x13" revision="ics" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13" revision="ics" />
   <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="x13" revision="ics" />
-  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="x13" revision="ics" />
-  <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="x13" revision="ics" />
 
 </manifest>
