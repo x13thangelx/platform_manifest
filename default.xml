@@ -7,15 +7,7 @@
            remote="aosp"
            sync-j="4" />
            
-  <remote name="cm"
-        fetch="git://github.com/CyanogenMod/" />
-
-  <remote name="x13"
-        fetch="git://github.com/x13thangelx/" />
            
-  <remote name="gummy"
-        fetch="git://github.com/teamgummy/" />
-
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
