@@ -4,6 +4,16 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+           
+  <remote name="cm"
+          fetch="git://github.com/CyanogenMod/" />
+
+  <remote name="x13"
+          fetch="git://github.com/x13thangelx/" />
+           
+  <remote name="cm9"
+          fetch="git://github.com/CM9-D2G/" />
+           
   <default revision="jb-dev"
            remote="aosp"
            sync-j="4" />
@@ -183,7 +193,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="x13" revision="jb" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
@@ -304,5 +314,17 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
+  
+  <!-- device trees -->
+  <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="x13" revision="master" /> 
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
+  <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
+  
+  <!-- additions -->
+  <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
 
 </manifest>
