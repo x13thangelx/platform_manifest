@@ -3,7 +3,10 @@
 
   <remote name="aosp"
         fetch="https://android.googlesource.com/" />
-
+  <default revision="jb-dev"
+           remote="aosp"
+           sync-j="4" />
+           
   <remote name="cm"
         fetch="git://github.com/CyanogenMod/" />
 
@@ -12,10 +15,6 @@
            
   <remote name="gummy"
         fetch="git://github.com/teamgummy/" />
-
-  <default revision="jb-dev"
-           remote="aosp"
-           sync-j="4" />
 
   <project path="build" name="platform/build" >
     <copyfile src="core/root.mk" dest="Makefile" />
