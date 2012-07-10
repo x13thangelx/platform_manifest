@@ -5,16 +5,13 @@
         fetch="https://android.googlesource.com/" />
 
   <remote name="cm"
-           fetch="git://github.com/CyanogenMod/" />
+        fetch="git://github.com/CyanogenMod/" />
 
   <remote name="x13"
-           fetch="git://github.com/x13thangelx/" />
+        fetch="git://github.com/x13thangelx/" />
            
   <remote name="gummy"
         fetch="git://github.com/teamgummy/" />
-
-  <remote name="gh"
-        fetch="git://github.com/" />
 
   <default revision="jb-dev"
            remote="aosp"
