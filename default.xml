@@ -13,7 +13,7 @@
   <remote name="gummy"
         fetch="git://github.com/teamgummy/" />
         
-  <default revision="ref/tags/android-4.1.1_r1"
+  <default revision="refs/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
 
