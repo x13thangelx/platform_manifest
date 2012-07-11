@@ -324,7 +324,7 @@
   <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
   
   <!-- additions -->
-  <preject path="vendor/angel" name="android_vendor_angel" remote="x13" revision="ics"
+  <preject path="vendor/angel" name="android_vendor_angel" remote="x13" revision="ics" />
   <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" />
 
 </manifest>
