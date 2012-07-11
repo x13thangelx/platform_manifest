@@ -12,6 +12,9 @@
            
   <remote name="gummy"
         fetch="git://github.com/teamgummy/" />
+
+  <remote name="cm9"
+        fetch="git://github.com/CM9-D2G/" />
         
   <remote name="sts"
         fetch="git://github.com/STS-Dev-Team/" />
@@ -319,12 +322,12 @@
   
   <!-- device trees -->
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="x13" revision="master" /> 
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="gummy" revision="ics" />
-  <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="gummy" revision="ics" />
-  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="gummy" revision="ics" />
-  <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="gummy" revision="ics" />
-  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="gummy" revision="ics" />
-  <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="gummy" revision="ics" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="x13" revision="ics" />
+  <project path="vendor/motorola/shadow" name="android_vendor_motorola_shadow" remote="cm9" revision="ics" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13" revision="ics" />
+  <project path="vendor/motorola/droid2we" name="android_vendor_motorola_droid2we" remote="cm9" revision="ics" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="x13" revision="ics" />
+  <project path="vendor/motorola/droid2" name="android_vendor_motorola_droid2" remote="cm9" revision="ics" />
   
   <!-- additions -->
   <project path="vendor/angel" name="android_vendor_angel" remote="x13" revision="jb" />
