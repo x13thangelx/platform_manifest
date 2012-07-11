@@ -13,7 +13,7 @@
   <remote name="gummy"
         fetch="git://github.com/teamgummy/" />
         
-  <default revision="jb-dev"
+  <default revision="ref/tags/android-4.1.1_r1"
            remote="aosp"
            sync-j="4" />
 
