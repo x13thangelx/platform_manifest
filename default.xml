@@ -310,7 +310,7 @@
   <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="x13" revision="jb" />
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13" revision="jb" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="x13" revision="jb" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="ics" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="cm9" />
   
   <!-- additions -->
   <project path="vendor/angel" name="android_vendor_angel" remote="x13" revision="jb" />
