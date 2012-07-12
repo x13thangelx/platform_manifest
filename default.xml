@@ -26,7 +26,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="x13" revision="jb-release" >
+  <project path="build" name="platform_build" remote="jb4dx" revision="jb-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
