@@ -307,9 +307,9 @@
   
   <!-- device trees -->
   <project path="device/motorola/omap34com" name="android_device_motorola_omap34com" remote="x13" revision="jb" /> 
-  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="x13" revision="ics" />
-  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13" revision="ics" />
-  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="x13" revision="ics" />
+  <project path="device/motorola/shadow" name="android_device_motorola_shadow" remote="x13" revision="jb" />
+  <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13" revision="jb" />
+  <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="x13" revision="jb" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="ics" />
   
   <!-- additions -->
