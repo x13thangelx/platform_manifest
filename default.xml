@@ -22,7 +22,7 @@
   <remote name="jb4dx"
         fetch="git://github.com/jellybean4DX" />
         
-  <default revision="refs/tags/android-4.1.1_r1"
+  <default revision="jb-release"
            remote="aosp"
            sync-j="4" />
 
