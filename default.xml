@@ -321,7 +321,6 @@
   <project path="vendor/angel" name="android_vendor_angel" remote="x13" revision="jb" />
   <project path="external/busybox" name="platform_external_busybox" remote="jb4dx" revision="jellybean" /> 
   <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="ics" />
-  <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <!-- <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" /> -->
 
 </manifest>
