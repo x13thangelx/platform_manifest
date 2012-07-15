@@ -216,7 +216,7 @@
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" />
   <project path="hardware/ril" name="platform/hardware/ril" />
-  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="jb4dx" revision="jellybean" />
+  <project path="hardware/ti/omap3" name="platform_hardware_ti_omap3" remote="jb4dx" revision="jb-release" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform_hardware_ti_wlan" remote="jb4dx" revision="jellybean" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
@@ -314,6 +314,7 @@
   
   <!-- additions -->
   <project path="vendor/angel" name="android_vendor_angel" remote="x13" revision="jb" />
+  <project path="external/busybox" name="platform_external_busybox" remote="jb4dx" revision="jellybean" /> 
   <!-- <project path="external/hostapd" name="android_external_hostapd" remote="cm" revision="gingerbread" /> -->
 
 </manifest>
