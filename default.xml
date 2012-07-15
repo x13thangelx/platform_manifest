@@ -22,6 +22,9 @@
   <remote name="jb4dx"
         fetch="git://github.com/jellybean4DX" />
         
+  <remote name="gh"
+        fetch="git://github.com/"
+        
   <default revision="jb-release"
            remote="aosp"
            sync-j="4" />
@@ -311,6 +314,8 @@
   <project path="device/motorola/droid2we" name="android_device_motorola_droid2we" remote="x13" revision="jb" />
   <project path="device/motorola/droid2" name="android_device_motorola_droid2" remote="x13" revision="jb" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="cm9" revision="cm9" />
+  <project path="device/motorola/common" name="MotoMagic/android_device_moto_hijack" remote="gh" revision="ics" />
+
   
   <!-- additions -->
   <project path="vendor/angel" name="android_vendor_angel" remote="x13" revision="jb" />
