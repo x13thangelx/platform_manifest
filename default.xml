@@ -23,7 +23,7 @@
         fetch="git://github.com/jellybean4DX" />
         
   <remote name="gh"
-        fetch="git://github.com/"
+        fetch="git://github.com/" />
         
   <default revision="jb-release"
            remote="aosp"
